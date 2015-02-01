@@ -99,7 +99,6 @@ AddOutputFilter chunkFilter
 		<Item Name="2015Crabby" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="IMULoop.vi" Type="VI" URL="../../2015robot/Robot Code/Sensors/IMULoop.vi"/>
 		<Item Name="Solenoid Control.ctl" Type="VI" URL="../../2015robot/Robot Code/Drivetrain Code/Solenoid Control.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -798,12 +797,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="FindAccelAngle.vi" Type="VI" URL="../../2015robot/Robot Code/Sensors/FindAccelAngle.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="IMU Complementary Filter.vi" Type="VI" URL="../../2015robot/Robot Code/Sensors/IMU Complementary Filter.vi"/>
-			<Item Name="IMU Data.ctl" Type="VI" URL="../../2015robot/Common Code/IMU Data.ctl"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -817,7 +813,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Radians to Degrees.vi" Type="VI" URL="../../2015robot/Common Code/Utilities/Radians to Degrees.vi"/>
 			<Item Name="TargetType.ctl" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2014 Target Detection/TargetType.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
