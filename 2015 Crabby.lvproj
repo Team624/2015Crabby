@@ -99,7 +99,6 @@ AddOutputFilter chunkFilter
 		<Item Name="2015Crabby" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Solenoid Command.ctl" Type="VI" URL="../../2015robot/Common Code/Solenoid Command.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -813,7 +812,6 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Panel Resized.vi" Type="VI" URL="../2015 Crabby Dashboard Project/Panel Resized.vi"/>
 			<Item Name="TargetType.ctl" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2014/examples/FRC/roboRIO/Vision/2014 Target Detection/TargetType.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
